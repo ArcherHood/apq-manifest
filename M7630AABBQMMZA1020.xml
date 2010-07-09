@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+
+  <default remote="caf" revision="searay"/>
+
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="d85cec947d43c37b223d9c5205aa3d4ef889d169"/>
+  <project name="kernel/msm" path="kernel" revision="759c705082313b41e6245e901358baec73d45e23"/>
+  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="61a2d7f72e33404e8f1aca745a2818acfde3eaad"/>
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="b54c145957955cc8d91e506f377f30caafb3f006"/>
+  <project name="platform/system/core" path="system/core" revision="d3b3599af338eebfc24135a8e9e986cbc4454361"/>
+</manifest>

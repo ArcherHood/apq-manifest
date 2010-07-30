@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  
+  <default remote="caf" revision="searay"/>
+  
+  <project name="quic/le/graphics/xf86-video-msm" path="graphics/xf86-video-msm" revision="4ebf9a231d7657c067a6315f5b10539e9d74e376"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="79f345929327be7300d4087f15373cb183e2f4e9"/>
+  <project name="kernel/msm" path="kernel" revision="1cccd695dd8614dc36d3d2fbcb673feeeff8236b"/>
+  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="61a2d7f72e33404e8f1aca745a2818acfde3eaad"/>
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="dc99b58b3333c9c7c9d76fff250941ec0d553360"/>
+  <project name="platform/system/core" path="system/core" revision="ec675f0ad5c09f4d7a392257095822cbba1bf669"/>
+</manifest>

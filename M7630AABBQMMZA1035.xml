@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le/" name="caf" review="codeaurora.org"/>
+
+  <default remote="caf" revision="searay"/>
+
+  <project name="graphics/xf86-video-msm" revision="6cf15c2d6964ac3c54606670303eb174e81dd576"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="f1b9a048fd4c4f67626d93826df767bdaf00122a"/>
+  <project name="kernel/msm" path="kernel" revision="da8738c953dd804f5a81f74ec18e832a72206928"/>
+  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="61a2d7f72e33404e8f1aca745a2818acfde3eaad"/>
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="4cb7d11c68fc5bcf40bf4125fdea01bfedba4f4c"/>
+  <project name="platform/system/core" path="system/core" revision="04cc925a9310706d94bcf76437b27c5130d57f42"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom-opensource/omx/mm-core" revision="01bbe350a464964a33af90bf121bf8ca64d542d9"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom-opensource/omx/mm-video" revision="9b720d27bcda4f83d633b15f6ff1167869c1afc6"/>
+</manifest>

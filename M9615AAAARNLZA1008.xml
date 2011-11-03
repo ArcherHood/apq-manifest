@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+ <remote  name="caf" 
+          fetch="git://codeaurora.org/quic/le" 
+          review="review.codeaurora.org"/>
+
+ <remote  name="oe"
+          fetch="git://github.com/" />
+
+ <default revision="master"
+          remote="caf" />
+
+
+ <project path="bootable/bootloader/lk" name="kernel/lk" />
+ <project path="kernel" name="kernel/msm"
+          revision="refs/heads/msm-3.0" />
+ <project path="build/recipes" name="oe/recipes" />
+ <project path="build/conf" name="oe/conf" />
+ <project path="system/core" name="platform/system/core"
+          revision="refs/heads/mdm" />
+ <project path="external/yaffs2" name="platform/external/yaffs2"
+          revision="refs/heads/mdm" />
+
+ <project path="build/openembedded" name="openembedded/openembedded"
+          remote="oe" revision="f4faecdbd0b7c83e5787735ef1495a34aca861e4" />
+ <project path="build/bitbake" name="openembedded/bitbake"
+          remote="oe" revision="refs/tags/1.13.3" />
+
+</manifest>

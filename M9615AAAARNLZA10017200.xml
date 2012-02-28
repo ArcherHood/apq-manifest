@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf"/>
+
+  <default remote="caf" revision="master"/>
+
+  <project name="kernel/lk" path="bootable/bootloader/lk"
+    revision="5e5c21a16f6443ae618f84e7b97d53989506d318"/>
+  <project name="kernel/msm" path="kernel"
+    revision="92261600c0d15322a678df32c2af5579b42deab0"/>
+  <project name="oe/conf" path="oe-core/build/conf"
+    revision="7d6913518cce9dcf30f66f5837cab0d4591e7725"/>
+  <project name="oe/recipes" path="oe-core/meta-msm"
+    revision="abed3deea2ae07267c5e73f619f7806d6e2fb988"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2"
+    revision="1ac90c1449ec5ba35aab51203819cc003586990c"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"
+    revision="101b944ea533800142b16eead7f2a9a16591f340"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"
+    revision="5674d047df54e3101e6913bac8c2c99cfd6aee15"/>
+  <project name="platform/system/core" path="system/core"
+    revision="1939d3858bf10bdeeaa1a6ccffcbd6b2c0c554a3"/>
+
+  <project name="bitbake" path="oe-core/bitbake" remote="oe"
+    revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="openembedded-core" path="oe-core" remote="oe"
+    revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+
+</manifest>

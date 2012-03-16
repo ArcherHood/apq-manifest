@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.openembedded.org/" name="oe"/>
-  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf"/>
   
   <default remote="caf"/>
   
   <project name="bitbake" path="oe-core/bitbake" remote="oe" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
   <project name="graphics/xf86-video-msm" path="xf86-video-msm" revision="e27b6e6c220f58b5d4ac0ff453588857a32513c8"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="00647e0adec364876a881aa308b041a635fe521e"/>
-  <project name="kernel/msm" path="kernel" revision="c6c98b112b695a0df202881afc51ee307433d736"/>
+  <project name="kernel/msm" path="kernel" revision="d407b40f5b0fd0e0ad8184582fe6a4f71d4e91fb"/>
   <project name="oe/conf" path="oe-core/build/conf" revision="81d0d1ac06e5ebbd287403f8599cc6f41400138c"/>
   <project name="oe/recipes" path="oe-core/meta-msm" revision="efd862a69887d618293636dabcc7b7339dc3ac3a"/>
   <project name="openembedded-core" path="oe-core" remote="oe" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
-  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c"/>
   <project name="platform/frameworks/base" path="base" revision="a3e788bda477f639b6d39bcd37e31b9c44705156"/>
-  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="101b944ea533800142b16eead7f2a9a16591f340"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="5674d047df54e3101e6913bac8c2c99cfd6aee15"/>
   <project name="platform/system/core" path="system/core" revision="f6c0948e695b22284137fb10db3315746aa6d714"/>
-  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="dc0b320731e798867d276d4e3a863dfd881761cd"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-core" path="mm-core-oss" revision="1c08a3373b94487eba2a71ed57575fe761c3b9a7"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-video" path="mm-video-oss" revision="5de87579d46e29a2bc7ada5360fcaf62326d0cac"/>
   <project name="platform/vendor/qcom/android-open" path="android-open" revision="10151a8cd02e7cf1101299d652e855ac09505142"/>

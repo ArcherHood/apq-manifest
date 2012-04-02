@@ -21,6 +21,9 @@
     revision="7c73f87cc49c4a898d9f8167be34a2ccd057b5c2"/>
   <project name="platform/system/core" path="system/core"
     revision="cc8c54aed21e06be5135cecb6ca01f19873483b5"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio"
+    path="qcom-opensource/mm-audio"
+    revision="50b854d394c693b2c34c12e5387dd41d4b989494"/>
 
   <project name="bitbake" path="oe-core/bitbake" remote="oe"
     revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>

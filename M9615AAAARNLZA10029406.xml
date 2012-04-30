@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf"/>
+
+  <default remote="caf" revision="master"/>
+
+  <project name="kernel/lk" path="bootable/bootloader/lk"
+    revision="7755045d7831b28956f7fcd9aca91a8e27352959"/>
+  <project name="kernel/msm" path="kernel"
+    revision="b39b31cf5aabeab9987f969d5f0f9728885baafe"/>
+  <project name="oe/conf" path="oe-core/build/conf"
+    revision="5033bf3aa0009ea96d49a7e46e1e4b5d5f802a5e"/>
+  <project name="oe/recipes" path="oe-core/meta-msm"
+    revision="625f45b15599cbd097bc208a8eef370f0ae6941b"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2"
+    revision="1ac90c1449ec5ba35aab51203819cc003586990c"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"
+    revision="101b944ea533800142b16eead7f2a9a16591f340"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"
+    revision="7c73f87cc49c4a898d9f8167be34a2ccd057b5c2"/>
+  <project name="platform/system/core" path="system/core"
+    revision="b12340c6c52b7fd40b71f8a52a19a3983e7db3c2"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio"
+    path="qcom-opensource/mm-audio"
+    revision="14c49e842525a041311ff6ca99ae070bd24855f4"/>
+
+  <project name="bitbake" path="oe-core/bitbake" remote="oe"
+    revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="openembedded-core" path="oe-core" remote="oe"
+    revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+
+</manifest>

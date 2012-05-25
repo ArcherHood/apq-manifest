@@ -56,6 +56,9 @@
   <project name="platform/external/hostap"
            path="external/hostap"
            revision="9c41fb5ad7bcd215545dd5a6d3240f4c9fb24b4c"/>
+  <project name="mdm/wlan"
+           path="wlan"
+           revision="f5b718ff6b7f4c94717497814133abcf80ab6334"/>
 
   <project name="bitbake"
            path="oe-core/bitbake"

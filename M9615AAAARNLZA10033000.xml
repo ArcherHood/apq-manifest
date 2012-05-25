@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf"/>
+
+  <default remote="caf" revision="master"/>
+
+  <project name="kernel/lk"
+           path="bootable/bootloader/lk"
+           revision="d1fa26a05e21179b3eba884fce12da433ee4c5e6"/>
+  <project name="platform/bootable/recovery"
+           path="bootable/recovery"
+           revision="eceee794985c2c4ab5149f161bc69e49442bdc91"/>
+  <project name="platform/build"
+           path="bootable/scripts"
+           revision="399d92854344ed2510dc970a2d324e3a75d286ed"/>
+  <project name="kernel/msm"
+           path="kernel"
+           revision="2ba7f1907db651da7bfea1c14377bb5dfe75daa8"/>
+  <project name="oe/recipes"
+           path="oe-core/meta-msm"
+           revision="a77158ef129fff3a26da6a89df05fee2ddcae4db"/>
+  <project name="oe/conf"
+           path="oe-core/build/conf"
+           revision="ea10538d0b52b108494e75129465d90affdf4e3e"/>
+  <project name="platform/system/core"
+           path="system/core"
+           revision="d325c941d40fc055d16df400be2bf4004ef51bc9"/>
+  <project name="platform/external/safe-iop"
+           path="external/safe-iop"
+           revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
+  <project name="platform/external/yaffs2"
+           path="external/yaffs2"
+           revision="1ac90c1449ec5ba35aab51203819cc003586990c"/>
+  <project name="platform/hardware/qcom/gps"
+           path="hardware/qcom/gps"
+           revision="7c73f87cc49c4a898d9f8167be34a2ccd057b5c2"/>
+  <project name="platform/hardware/libhardware"
+           path="hardware/libhardware"
+           revision="101b944ea533800142b16eead7f2a9a16591f340"/>
+  <project name="platform/frameworks/base"
+           path="base"
+           revision="b80b2b8b655b1ad1b5c47975a035526c7beeaac9"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-core"
+           path="mm-core-oss"
+           revision="943596f0d1ba3abf65f85416e34d26194937340c"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-video"
+           path="mm-video-oss"
+           revision="23d45c0dcee9efb70bb14ffce53478aa3c994e64"/>
+  <project name="platform/hardware/qcom/camera"
+           path="camera-hal"
+           revision="07c44bab8443f3fe2a276ad10761d5ca8aec38b8"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio"
+           path="qcom-opensource/mm-audio"
+           revision="bb755afbf305ed95a2907acde6596b1c68fbc2d0"/>
+  <project name="platform/external/hostap"
+           path="external/hostap"
+           revision="9c41fb5ad7bcd215545dd5a6d3240f4c9fb24b4c"/>
+
+  <project name="bitbake"
+           path="oe-core/bitbake"
+           remote="oe"
+           revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="openembedded-core"
+           path="oe-core"
+           remote="oe"
+           revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+
+</manifest>

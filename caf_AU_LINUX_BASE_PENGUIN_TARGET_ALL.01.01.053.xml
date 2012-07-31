@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.openembedded.org/" name="oe"/>
-  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf" review="codeaurora.org"/>
   <default remote="caf"/>
   <project name="bitbake" path="oe-core/bitbake" remote="oe" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="ea02b5bd5852aa8b216a8a791401c0c90ecc4ac4"/>

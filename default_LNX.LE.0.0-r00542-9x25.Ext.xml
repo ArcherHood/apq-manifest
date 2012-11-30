@@ -11,7 +11,7 @@
   <project name="oe/conf" path="oe-core/build/conf"/>
   <project name="oe/recipes" path="oe-core/meta-msm"/>
   <project name="openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
-  <project name="openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project name="openembedded/openembedded" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/heads/mdm"/>
   <project name="platform/build" path="bootable/scripts" revision="refs/heads/mdm"/>
   <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/mdm"/>

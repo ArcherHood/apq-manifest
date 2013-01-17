@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master" />
+  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="5b190f72944de7bdc2d4d33bb80add6850ab717d"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="674f3f7b0bb313ca7fc77529e59a74d1f00f0b95"/>
+  <project groups="default" name="mdm/reboot-daemon" path="reboot-daemon" revision="e5b696df78e713cb2d3aadd5e38b99011d250c6e"/>
+  <project groups="default" name="mdm/webserver" path="webserver" revision="999463b058ddc95d02fd319dceb1b2ec48f01dee"/>
+  <project groups="default" name="mdm/wlan" path="wlan" revision="e2115e12d1f2c87c51c8a641fa245f3c6802b8b7"/>
+  <project groups="default" name="oe/conf" path="oe-core/build/conf" revision="139a87589939606254f1a909a26c88bda70479d9"/>
+  <project groups="default" name="oe/recipes" path="oe-core/meta-msm" revision="74291aadac64bf0502b45bdbfd1339d3a941b82e"/>
+  <project groups="default" name="openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project groups="default" name="openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project groups="default" name="platform/bootable/recovery" path="bootable/recovery" revision="2286dbad1951d386140942359cc8fd228292dc28"/>
+  <project groups="default" name="platform/build" path="bootable/scripts" revision="399d92854344ed2510dc970a2d324e3a75d286ed"/>
+  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless" revision="2b71720894025d4c0e35068961833b2810af225f"/>
+  <project groups="default" name="platform/external/hostap" path="external/hostap" revision="58adc2e1328533c6a45b0a23ee295188a91fbb7c"/>
+  <project groups="default" name="platform/external/qrngd" path="external/qrngd" revision="c60132ca9037a84e20da962a0ceca7b08a425cd7"/>
+  <project groups="default" name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
+  <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c"/>
+  <project groups="default" name="platform/frameworks/base" path="base" revision="b80b2b8b655b1ad1b5c47975a035526c7beeaac9"/>
+  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="101b944ea533800142b16eead7f2a9a16591f340"/>
+  <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="58be41496ae8188a963d65acffa2643b94c11023"/>
+  <project groups="default" name="platform/system/core" path="system/core" revision="0f7abb0e9a6474405013e82baa596adc023cfb1e"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="984e1574fb3b0f3e80de04d038783b58e1874b70"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="97f77c11e90655ba0138e8294ca3b4a2c4596538"/>
+</manifest>

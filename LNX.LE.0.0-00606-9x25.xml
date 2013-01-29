@@ -3,7 +3,7 @@
   <remote fetch="git://codeaurora.org/quic/le" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="master_rb1.7" />
   <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="62f247d7fa22a3eedfeadb180b8458921a3f8700"/>
-  <project groups="default" name="kernel/msm" path="kernel" revision="ceb988b94b0cac7c5e124c8ddd40093bb0acbc60"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="39fa306766f732734e1a3c5f974c5e12244fcd46"/>
   <project groups="default" name="mdm/reboot-daemon" path="reboot-daemon" revision="08a9ec69556437777f9d485ee8f3938decaaf41f"/>
   <project groups="default" name="mdm/webserver" path="webserver" revision="8361009706e47439be52cd53294a9f34f625ddcd"/>
   <project groups="default" name="mdm/wlan" path="wlan" revision="afe445e6c496959b483b16e21a3033786541ca6d"/>

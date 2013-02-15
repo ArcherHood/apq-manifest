@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="git://codeaurora.org/gitolite/quic/le" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="horseshoe" />
+  <project groups="default" name="bitbake" path="oe-core/bitbake" remote="oe" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project groups="default" name="graphics/xf86-video-msm" path="xf86-video-msm" revision="refs/heads/chromium"/>
+  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project groups="default" name="kernel/msm" path="kernel"/>
+  <project groups="default" name="mdm/reboot-daemon" path="reboot-daemon" revision="refs/heads/master"/>
+  <project groups="default" name="mdm/webserver" path="webserver" revision="refs/heads/master"/>
+  <project groups="default" name="mdm/wlan" path="wlan" revision="refs/heads/master"/>
+  <project groups="default" name="oe/conf" path="oe-core/build/conf" revision="refs/heads/master"/>
+  <project groups="default" name="oe/recipes" path="oe-core/meta-msm" revision="refs/heads/master"/>
+  <project groups="default" name="openembedded-core" path="oe-core" remote="oe" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project groups="default" name="platform/external/hostap" path="external/hostap" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/frameworks/base" path="base" revision="refs/heads/gingerbread"/>
+  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="refs/heads/gingerbread"/>
+  <project groups="default" name="platform/hardware/msm7k" path="hardware/msm7k" revision="refs/heads/jb"/>
+  <project groups="default" name="platform/hardware/qcom/camera" path="camera-hal"/>
+  <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="refs/heads/gingerbread"/>
+  <project groups="default" name="platform/hardware/qcom/media" path="mm-video-oss"/>
+  <project groups="default" name="platform/system/core" path="system/core" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="refs/heads/master"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="refs/heads/master"/>
+</manifest>

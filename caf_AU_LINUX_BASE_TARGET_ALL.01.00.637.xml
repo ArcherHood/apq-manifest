@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org" name="caf" review="codeaurora.org"/>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="master" />
   <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="323330f8a4d4756f0f98043d05e1f59d59754168"/>
   <project groups="default" name="kernel/msm" path="kernel" revision="c6db3d08a8593042b903ff6acf2a7914c5f5e575"/>

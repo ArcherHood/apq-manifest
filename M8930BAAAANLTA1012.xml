@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="horseshoe" />
+  <project groups="default" name="graphics/xf86-video-msm" path="xf86-video-msm" revision="fe538242a429c709c91728de314822db8905560b"/>
+  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="406111a4df378dd7162d6cde23e700c1d20de98b"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="d3a6e382f8ac1318e4d7432e2ca17bdc1277cfea"/>
+  <project groups="default" name="mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a"/>
+  <project groups="default" name="mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37"/>
+  <project groups="default" name="oe/conf" path="oe-core/build/conf" revision="4b9f41e78e678b1c487cf7b90ce01fe64fb542d6"/>
+  <project groups="default" name="oe/recipes" path="oe-core/meta-msm" revision="bf8a163c9509c0209b64790a895869965669f9f6"/>
+  <project groups="default" name="openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project groups="default" name="openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project groups="default" name="platform/external/hostap" path="external/hostap" revision="094e5a85cb30829a9212be45c68dd812d83dcd5c"/>
+  <project groups="default" name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
+  <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c"/>
+  <project groups="default" name="platform/frameworks/base" path="base" revision="66bc464a771dac06f9a04ef71a7a00ccd5f0a5f7"/>
+  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47"/>
+  <project groups="default" name="platform/hardware/msm7k" path="hardware/msm7k" revision="630329b0ab87ac0f6d3516b82c7d6ca4d9fb0f6d"/>
+  <project groups="default" name="platform/hardware/qcom/camera" path="camera-hal" revision="1afecb1d5dcc074308a4af58d20593ac1a744235"/>
+  <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="516bd4e6791c0f9526fe28283d878c2ebd24c334"/>
+  <project groups="default" name="platform/hardware/qcom/media" path="mm-video-oss" revision="e6ec9e9008ab2c5946ee0894c947bf310d2ab395"/>
+  <project groups="default" name="platform/system/core" path="system/core" revision="080bcc4e27b4237cc118127326769ff7eaf8b922"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="e5e003ce158c0496f91eeaa1afd877114e60b9f0"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="864860b45382299bf62357e473f51e07daefb546"/>
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="redcloud"/>
+  <project groups="default" name="quic/le/framework/uifw/libtbm" path="libtbm" revision="d6ae134dad676497b828db9868ef7636c2a8da80"/>
+  <project groups="default" name="quic/le/graphics/libgenlock" revision="80de9da46f43fc305adf7989ca2c56cc58716e06"/>
+  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="cd24395aa2bc25fbe5377258ece0b232ee1f8d26"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="8cf3d465ad2b50f7810bf21ec4bbb80a5296d8c1"/>
+  <project groups="default" name="quic/le/mdm/libtbm-msm" path="libtbm-msm" revision="324a341307bea0bbdc6d8126a33ecc2898d1ecd6"/>
+  <project groups="default" name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a"/>
+  <project groups="default" name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37"/>
+  <project groups="default" name="quic/le/oe/conf" path="oe-core/build/conf" revision="20e9766e0a7bdeff638f63e7fea7dfa975275285"/>
+  <project groups="default" name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="d03d21ba0cf881342aff35c4a8b0f56ce581f114"/>
+  <project groups="default" name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project groups="default" name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project groups="default" name="platform/external/hostap" path="external/hostap" revision="5d46091ab03bb6c2f62091e46e3b280e5fb00dbf"/>
+  <project groups="default" name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
+  <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c"/>
+  <project groups="default" name="platform/frameworks/base" path="base" revision="66bc464a771dac06f9a04ef71a7a00ccd5f0a5f7"/>
+  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="c0b70116ff44e1c9c16ff2ec0b338764f5f39261"/>
+  <project groups="default" name="platform/hardware/msm7k" path="hardware/msm7k" revision="630329b0ab87ac0f6d3516b82c7d6ca4d9fb0f6d"/>
+  <project groups="default" name="platform/hardware/qcom/camera" path="camera-hal" revision="d42df9225e5a06211008206d4a2f2493f996aea2"/>
+  <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="2f40f8bd1aa8024d895b094b81fa51ec148d0028"/>
+  <project groups="default" name="platform/hardware/qcom/media" path="mm-video-oss" revision="bd6f3d6624269931f0eb1b73142198e742afca07"/>
+  <project groups="default" name="platform/system/core" path="system/core" revision="38bc20b7b5c84b36c7c1f57b2ec39ab43f25d6ff"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="544c49268e6a5b4d5777a9609b2696c9d19ab7eb"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="623d563a8066e02045e516177211b11be413f9cf"/>
+</manifest>

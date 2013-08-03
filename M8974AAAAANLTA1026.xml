@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git@git.codeaurora.org:/external/graphics/" name="caf-graphics" review="none"/>
+  <remote fetch="ssh://git@git.codeaurora.org/external/graphics/" name="caf-graphics" review="none"/>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="redcloud"/>
   <project groups="default" name="device/qcom/common" revision="29f53eef5c7fc63002a370ab03349d37a002d022"/>

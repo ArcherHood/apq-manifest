@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master"/>
+  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="refs/heads/msm-3.4"/>
+  <project groups="default" name="quic/le/mdm/mcm" path="mcm"/>
+  <project groups="default" name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="refs/heads/master"/>
+  <project groups="default" name="quic/le/mdm/webserver" path="webserver" revision="refs/heads/master"/>
+  <project groups="default" name="quic/le/mdm/wlan" path="wlan" revision="refs/heads/master"/>
+  <project groups="default" name="quic/le/oe/conf" path="oe-core/build/conf"/>
+  <project groups="default" name="quic/le/oe/recipes" path="oe-core/meta-msm"/>
+  <project groups="default" name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project groups="default" name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project groups="default" name="platform/bootable/recovery" path="bootable/recovery" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/build" path="bootable/scripts" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/external/hostap" path="external/hostap" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/external/qrngd" path="external/qrngd" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/external/safe-iop" path="external/safe-iop" revision="refs/heads/ics"/>
+  <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/frameworks/base" path="base" revision="refs/heads/gingerbread"/>
+  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="refs/heads/horseshoe"/>
+  <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="refs/heads/horseshoe"/>
+  <project groups="default" name="platform/system/core" path="system/core" revision="refs/heads/mdm"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="refs/heads/master"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="refs/heads/master"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="refs/heads/master"/>
+</manifest>

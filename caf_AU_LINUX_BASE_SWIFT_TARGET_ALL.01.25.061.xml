@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="hummingbird"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="48bcc753e99b76bcc45c4b4ac49181075e7d0ec2" upstream="refs/heads/canary"/>
+  <project name="kernel/msm" path="kernel" revision="28d6d289bede29beacec14d9322fd79ac3747093" upstream="refs/heads/swift"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="hummingbird"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="hummingbird"/>
+  <project name="quic/le/mdm/wlan" path="wlan" revision="4d34992e95156f0d4bc7e7f38e91c2bb65541510" upstream="hummingbird"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="20e9766e0a7bdeff638f63e7fea7dfa975275285" upstream="hummingbird"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="a6e3a556ae608b4358fddfa87ee56882e9ec9bc9" upstream="refs/heads/canary"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5" upstream="hummingbird"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535" upstream="hummingbird"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="fb6bdd346028a4bbf0e2c9a90607b0ba3ea13823" upstream="hummingbird"/>
+  <project name="platform/build" path="bootable/scripts" revision="e4a28246f0cd2c5a75fbf6ccf8c5bc28208fd203" upstream="hummingbird"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="e429cb710f3166db534cf0d5992ed7a0a83021b9" upstream="refs/heads/canary"/>
+  <project name="platform/external/hostap" path="external/hostap" revision="d17968687294295d893f2a6b0ac6dd6322f6617b" upstream="refs/heads/canary"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="87a13e739a811ce772fd05eb556f8dd9252af1cf" upstream="hummingbird"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="hummingbird"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="hummingbird"/>
+  <project name="platform/frameworks/base" path="base" revision="66bc464a771dac06f9a04ef71a7a00ccd5f0a5f7" upstream="hummingbird"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="hummingbird"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="7cf9e48cd662ccf52b43be96922404f782dfa543" upstream="hummingbird"/>
+  <project name="platform/system/core" path="system/core" revision="74f2168124d52ce8ffb7da94190575e28462abb2" upstream="hummingbird"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="2225966883c6ba0e1ce125a51664e728a3fbbc85" upstream="refs/heads/swift"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="528bc511e82ea21a27dcd705cfc5fda08c032130" upstream="hummingbird"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="fadccc0637a75eac8fe44288c0f653ea3bde7a8f" upstream="hummingbird"/>
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master"/>
+  <project name="device/qcom/common" revision="763be2bea54a38946882ad28b12c61a416b062b7" upstream="refs/heads/jb_rb5.1"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="2b2c48c12015ca7ceca17553a67ec642f9f4df1f" upstream="master"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="28a50082c2203e91dc782babfce14bb6c921e14d" upstream="refs/heads/msm-3.10"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="refs/heads/master"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="refs/heads/master"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="f82d446f30b11690714065aa3cbfafa86a402ade" upstream="master"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="42f8cc7c08ee278e348de7950b6c55f59a999607" upstream="master"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="4500e45749e65038c7c17fe33139a0b636e95250" upstream="refs/heads/mdm"/>
+  <project name="platform/build" path="bootable/scripts" revision="e4a28246f0cd2c5a75fbf6ccf8c5bc28208fd203" upstream="refs/heads/mdm"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="29b7068bf5fb64f09c1f83823ac1737a1f36b7f1" upstream="refs/heads/mdm"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="refs/heads/ics"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="3c7ad8d558f600f12fbf5d460adf3075a27f7013" upstream="refs/heads/kitkat"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="refs/heads/mdm"/>
+  <project name="platform/frameworks/base" path="base" revision="28b42330d3fc59df12ea6ac4edafbf683e6ca612" upstream="refs/heads/gingerbread"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="refs/heads/horseshoe"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="d4491dc30b2c5b03f6bd693da28704f82307f5e5" upstream="refs/heads/horseshoe"/>
+  <project name="platform/system/core" path="system/core" revision="14a7eaf7b8eb6212189eb308e49204a81c4d2885" upstream="refs/heads/mdm"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="80383afd8aad39b3e7bba613a4decff39daca201" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="0f57f49c5b9a26ab7230a00bef55841dc13aba5e" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="1d99e41dbe99fe42cb461ab67b2fc8156793fbdb" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="1f5b8cac7ffe3d1ccd753e8465958dd1b863fac1" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="539f9633b061a6598a6e5167ed268a4af1edb342" upstream="refs/heads/le.4.0.0.1"/>
+  <project name="quic/le/platform/vendor/qcom/krypton" path="device/qcom/krypton" revision="9852db81aca1add20448fc8c7dedccd7d1436a3c" upstream="master"/>
+</manifest>

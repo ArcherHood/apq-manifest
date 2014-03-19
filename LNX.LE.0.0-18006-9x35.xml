@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master_kb_kw.3"/>
+  <project name="device/qcom/common" revision="2b7bb0e01063cb45984e94a700dacc18905a845f" upstream="master_kb_kw.3"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="b8ade6f088e8ef3689c3b7453f6d9f3428c5305a" upstream="master_kb_kw.3"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="c54b777c7d619c276e2a030db9efebad4b6d48f0" upstream="master_kb_kw.3"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="master_kb_kw.3"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="master_kb_kw.3"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="9bbdbf32d3279afadc37cae2fc729f640d9ef6a8" upstream="master_kb_kw.3"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="ebd3ad37c3ba6c0004f24db11c5372b63d692db0" upstream="master_kb_kw.3"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5" upstream="master_kb_kw.3"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535" upstream="master_kb_kw.3"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="4500e45749e65038c7c17fe33139a0b636e95250" upstream="master_kb_kw.3"/>
+  <project name="platform/build" path="bootable/scripts" revision="e4a28246f0cd2c5a75fbf6ccf8c5bc28208fd203" upstream="master_kb_kw.3"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="29b7068bf5fb64f09c1f83823ac1737a1f36b7f1" upstream="master_kb_kw.3"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="master_kb_kw.3"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="9df433d0c3a889f3b7be7881556f2839b1a07199" upstream="master_kb_kw.3"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="master_kb_kw.3"/>
+  <project name="platform/frameworks/base" path="base" revision="28b42330d3fc59df12ea6ac4edafbf683e6ca612" upstream="master_kb_kw.3"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="master_kb_kw.3"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="654dcc2b9921906c18ef6ba9c575f6c1fe1af8d7" upstream="master_kb_kw.3"/>
+  <project name="platform/system/core" path="system/core" revision="e7f40c9592edabe57a86439d6af44f9e29ebca13" upstream="master_kb_kw.3"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="6031154c549bee03572c377f2f604a77feb2b2ff" upstream="master_kb_kw.3"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="22b96bca69e1f4ed063ca41f7c3cb4e130e39aba" upstream="master_kb_kw.3"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="472159de78b2958c28749502d953a8cfa2df4b7e" upstream="master_kb_kw.3"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="5271fecdbcd63212f84c2db876e806c179d34d36" upstream="master_kb_kw.3"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="a0aed20b78aa6dfb02c2b950c92ff1a34e664f27" upstream="master_kb_kw.3"/>
+  <project name="quic/le/platform/vendor/qcom/krypton" path="device/qcom/krypton" revision="ce0e4d3726a8882921b0e62ef87038cb2fcc958b" upstream="master_kb_kw.3"/>
+</manifest>

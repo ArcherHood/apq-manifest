@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@git.codeaurora.org/external/graphics/" name="caf-graphics" review="none"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="redcloud"/>
+  <project name="device/qcom/common" revision="849d0e132ab991b6a0d7166c18c4aba4c6573980" upstream="redcloud"/>
+  <project name="quic/le/framework/system/dlog" path="dlog" revision="8e82e2a8fdbf7b79bc2561092d78121c4962c983" upstream="redcloud"/>
+  <project name="quic/le/framework/uifw/libtbm" path="libtbm" revision="8e78d4f9f2747c4685ab8778804e4e26e7a60862" upstream="redcloud"/>
+  <project name="quic/le/graphics/libgenlock" revision="80de9da46f43fc305adf7989ca2c56cc58716e06" upstream="redcloud"/>
+  <project name="xf86-video-msm" path="xf86-video-msm" revision="eac42d42a34fe442ce78040111a7166b5ea9b40d" upstream="redcloud" remote="caf-graphics"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="7668eaee5e78314722679e0e168555bbf907d493" upstream="redcloud"/>
+  <project name="kernel/msm" path="kernel" revision="e30bf45e9ede23ae362962550aa1dc8ea059888e" upstream="redcloud"/>
+  <project name="quic/le/mdm/libtbm-msm" path="libtbm-msm" revision="f607ec0aefda245eb2a1330693e2639a95b53498" upstream="redcloud"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="redcloud"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="redcloud"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="1828ac0a688582325c945b8c5e56a72aebd3279c" upstream="redcloud"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="5f9796825dc347c77b6966a5904a9422a8938d1b" upstream="redcloud"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5" upstream="redcloud"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535" upstream="redcloud"/>
+  <project name="platform/external/hostap" path="external/hostap" revision="9d1371a01b56d0235e5dbe9f2ae148b2baed4a5c" upstream="redcloud"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="392b29447b9c477a86899a5953b75abdfd2f77ff" upstream="redcloud"/>
+  <project name="platform/external/skia" path="external/skia" revision="5db13cc15d9105700400573d893ff3b63270ce72" upstream="redcloud"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="redcloud"/>
+  <project name="platform/frameworks/base" path="base" revision="66bc464a771dac06f9a04ef71a7a00ccd5f0a5f7" upstream="redcloud"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="4468c95efa5a35e4401015bc8730a90cebc76980" upstream="redcloud"/>
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="630329b0ab87ac0f6d3516b82c7d6ca4d9fb0f6d" upstream="redcloud"/>
+  <project name="platform/hardware/qcom/camera" path="camera-hal" revision="54ee6c5abb3597962de2ac951d51fb896f4cd29a" upstream="redcloud"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="d4491dc30b2c5b03f6bd693da28704f82307f5e5" upstream="redcloud"/>
+  <project name="platform/hardware/qcom/media" path="mm-video-oss" revision="a34da21d834fd7d62476786ec40f433ef2232639" upstream="redcloud"/>
+  <project name="platform/system/core" path="system/core" revision="93d4f5543ee3ff16f962abc27b41c760b6b136f4" upstream="redcloud"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="1f0bc85926e569a3fb79712560aa101feeebab6d" upstream="redcloud"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="272e4d3a2aa49a086be7c694dc0f9df3fd687a36" upstream="redcloud"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="qcom-opensource/time-services" revision="042f5604450f8a7f1dd4adeafc9f43cd47598da3" upstream="redcloud"/>
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LB.0.9"/>
+  <project name="device/qcom/common" revision="ff4cade89125fefe39669246dec69b4eeba78800" upstream="LNX.LB.0.9"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="da47ec73893867fed44e1e97626062ab447193df" upstream="LNX.LB.0.9"/>
+  <project name="kernel/msm" path="kernel" revision="b65f10fefb7fcc637920d7f8a7cf5ca1a878c1c3" upstream="refs/heads/tizen_0.1"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="LNX.LB.0.9"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="9bbdbf32d3279afadc37cae2fc729f640d9ef6a8" upstream="LNX.LB.0.9"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="b7606fa53917bb53863249be02f222e8026f30af" upstream="LNX.LB.0.9"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5" upstream="LNX.LB.0.9"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535" upstream="LNX.LB.0.9"/>
+  <project name="platform/external/hostap" path="external/hostap" revision="14dddd025236f6b2aac5b8234a0fecd96b7e87ba" upstream="LNX.LB.0.9"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="LNX.LB.0.9"/>
+  <project name="platform/frameworks/base" path="base" revision="28b42330d3fc59df12ea6ac4edafbf683e6ca612" upstream="LNX.LB.0.9"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="6fdbfae2b4455a0d29ad1f1479bb3ad704c36166" upstream="LNX.LB.0.9"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="654dcc2b9921906c18ef6ba9c575f6c1fe1af8d7" upstream="LNX.LB.0.9"/>
+  <project name="platform/hardware/qcom/media" path="mm-video-oss" revision="9e5dab10f95a6d0c815f4aa799ea41a949f03036" upstream="LNX.LB.0.9"/>
+  <project name="platform/system/core" path="system/core" revision="24b76decfcb7ad2d1cfefc1479591a55a52888a2" upstream="LNX.LB.0.9"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="472159de78b2958c28749502d953a8cfa2df4b7e" upstream="LNX.LB.0.9"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="cf01c5759d58ac49cc4b1098705a009a56f718af" upstream="LNX.LB.0.9"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="qcom-opensource/time-services" revision="e23c6ce3076e600e018e25fb581bfb01f32477e0" upstream="LNX.LB.0.9"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="0900e083af87ccbda74d93e03b735933c33f1317" upstream="LNX.LB.0.9"/>
+</manifest>

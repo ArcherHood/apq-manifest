@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LB.0.9"/>
+  <project name="device/qcom/common"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project name="kernel/msm" path="kernel" revision="refs/heads/tizen_0.1"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core"/>
+  <project name="platform/external/hostap" path="external/hostap"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="platform/hardware/qcom/media" path="mm-video-oss"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="qcom-opensource/time-services"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima"/>
+</manifest>

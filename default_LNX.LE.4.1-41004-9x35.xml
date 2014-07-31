@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LE.4.1_rb1.2"/>
+  <project name="device/qcom/common"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project name="kernel/msm-3.10" path="kernel"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon"/>
+  <project name="quic/le/mdm/webserver" path="webserver"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery"/>
+  <project name="platform/build" path="bootable/scripts"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="refs/heads/LNX.LE.4.1_rb1.2"/>
+  <project name="platform/external/qrngd" path="external/qrngd"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2"/>
+  <project name="platform/frameworks/base" path="base"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="quic/le/platform/init_mss" path="init_mss"/>
+  <project name="platform/system/core" path="system/core"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="refs/heads/le.4.0.0.1"/>
+  <project name="quic/le/platform/vendor/qcom/krypton" path="device/qcom/krypton"/>
+</manifest>

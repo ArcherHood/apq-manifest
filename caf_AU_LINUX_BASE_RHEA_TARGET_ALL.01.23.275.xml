@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="ics_strawberry"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="3818d19326f933f8081aac5e1d66483dfc1efe67" upstream="ics_strawberry"/>
+  <project name="kernel/msm" path="kernel" revision="0488738c2b39972e81d838e3f9314d206dec3d61" upstream="refs/heads/rhea"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="refs/heads/master"/>
+  <project name="quic/le/mdm/wlan" path="wlan" revision="1f3f8e2169cf1ef1c135ad919e39fadaf9a143fc" upstream="refs/heads/penguin"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="06c69b9afab8ee06393cc789579dd150728fc706" upstream="refs/heads/penguin"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="a8428a8fc9d94b7cac700e3409315c04a53e1eed" upstream="refs/heads/rhea"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="abfa6d908e233d6e71758de6b1823393a75c7672" upstream="refs/heads/penguin"/>
+  <project name="platform/build" path="bootable/scripts" revision="b008f2d03753e3d2918b2b7622ca05af4560c956" upstream="refs/heads/penguin"/>
+  <project name="platform/external/hostap" path="external/hostap" revision="67b09fe2619c220f41626c33440506880ca6c15f" upstream="refs/heads/kiwi"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="ics_strawberry"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="refs/heads/penguin"/>
+  <project name="platform/frameworks/base" path="base" revision="e5db9778638c92b36492767dd045cd3b889c5d27" upstream="refs/heads/penguin"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="refs/heads/rhea"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="654dcc2b9921906c18ef6ba9c575f6c1fe1af8d7" upstream="refs/heads/rhea"/>
+  <project name="platform/system/core" path="system/core" revision="3b56b460137bcc252738b22859c8bc8d54ea5c9c" upstream="refs/heads/penguin"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="f364be9c58f3b6b421bd6c252242b8472076bc74" upstream="ics_strawberry"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="87cac216a34dd5d19a333e32d34d5c00d8c38f16" upstream="ics_strawberry"/>
+</manifest>

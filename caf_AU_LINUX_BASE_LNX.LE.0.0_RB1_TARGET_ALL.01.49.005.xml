@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LE.0.0_rb1.1"/>
+  <project name="device/qcom/common" revision="f08cae20af38373a75d82177ba44037bf1886e2b" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="e5c7e6160249fb6f5b270e6522d32418906b4e5c" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="c8d2f36a74d5a8cb55ef5ab509f814d8fdbdd315" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="3aa0cf9471b7e4090b5eb9ea9468f671a115f094" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="9a6ad473c8b2aa9085d31346ee3c461bfd7fa23d" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="c761751e259bb8e940552a28794b45887b5a72d9"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="003ea0fd1017dde50ced710179d0dc2e835d5185"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="ebfb7661d3e596eb0b9cdf1911eaa8038016c133" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/build" path="bootable/scripts" revision="760c37a63c33e8b687018a4cc237992a9d2a3853" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="95f338a7fa8807c196ffa37c82b201ba4b987c3d" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="3f47ca8fe0d35207dda15c56d8de5502017bca38" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="29b7068bf5fb64f09c1f83823ac1737a1f36b7f1" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="686d7a48f06a4f95505fee3d23ffca961d7cef68" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="a77c0a81c23dee7bffe3b07312e80e733c6e3151" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="quic/le/platform/init_mss" path="init_mss" revision="41bf942bbbb0b32aa8f588c2475ff847c13d6817" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/system/core" path="system/core" revision="ce862c379d536705f1d6a951d1f54a0d2a7c2608" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="ea725c49b5ba956d4d006b23d3c421f46eeb563a" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="8484a5c4645c20451108dbaa06ca498c44fcaa66" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="dd4f67c7771ec75bd35566d3dab3869fbbc0aa8f" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="82fc5002d124f1664550da63b922bdcedc5d787c" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="c9dee504e25092fcf1b46da7eab832920ab21e1e" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="b10c41f6ca90e72b7164d61aba4a7723cf36ab86" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="quic/le/platform/vendor/qcom/krypton" path="device/qcom/krypton" revision="6629c06720a95608a9b95d0ba014e39b66739533" upstream="LNX.LE.0.0_rb1.1"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="1cb998bacf0a4f192958f914970c3a2ffe4a0d9e" upstream="LNX.LE.0.0_rb1.1"/>
+</manifest>

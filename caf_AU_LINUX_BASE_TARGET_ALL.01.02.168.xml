@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="master"/>
+  <project name="device/qcom/common" revision="f08cae20af38373a75d82177ba44037bf1886e2b" upstream="refs/heads/jb_rb5.1"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="e53b1715172357cbaca2e07d58f6b8f6b0f14c64" upstream="refs/heads/master"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="03a3b467a4ef27d630b809a9cf8fd8acf7aed70c" upstream="master"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="247909f4aa001b723189f6ae90bfa639e540e49d" upstream="refs/heads/msm-3.10"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="refs/heads/master"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="refs/heads/master"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="7c8e87a3721b9b47ed3b565e78c782addeccbee7" upstream="master"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="b505b9b563c248f144b198d8f0fb24e47dd8dea0" upstream="master"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="c761751e259bb8e940552a28794b45887b5a72d9"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="003ea0fd1017dde50ced710179d0dc2e835d5185"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="ebfb7661d3e596eb0b9cdf1911eaa8038016c133" upstream="refs/heads/mdm"/>
+  <project name="platform/build" path="bootable/scripts" revision="760c37a63c33e8b687018a4cc237992a9d2a3853" upstream="refs/heads/mdm"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="95f338a7fa8807c196ffa37c82b201ba4b987c3d" upstream="refs/heads/master"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="6e7f49abcec2636ecb0191fc341c513005f81a37" upstream="refs/heads/mdm"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="29b7068bf5fb64f09c1f83823ac1737a1f36b7f1" upstream="refs/heads/mdm"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="refs/heads/ics"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="586b9e348d670dd7532547cf5ff16e7c708e4fd3" upstream="refs/heads/kitkat"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="refs/heads/mdm"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="refs/heads/horseshoe"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="a77c0a81c23dee7bffe3b07312e80e733c6e3151" upstream="refs/heads/horseshoe"/>
+  <project name="quic/le/platform/init_mss" path="init_mss" revision="41bf942bbbb0b32aa8f588c2475ff847c13d6817" upstream="master"/>
+  <project name="platform/system/core" path="system/core" revision="9a3d939c2c82f406a8cf587e13fb39abf403151b" upstream="refs/heads/mdm"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="7a3516457658906ec4cf2085fb3e060d840b1942" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="67be864a70f78cab0f526f50ec4c8d65acbba80e" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="dd4f67c7771ec75bd35566d3dab3869fbbc0aa8f" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="ea017f54af953dcaad769f5bcb806e4290e2aae8" upstream="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="qcom-opensource/wlan/prima" revision="749bc6a6074f283c32dd06f798dfc9539253f6a5" upstream="refs/heads/jb_mr1"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="c0dcc2bc5e34f62e015509c22ca1ee6645a98c67" upstream="refs/heads/master"/>
+  <project name="quic/le/platform/vendor/qcom/krypton" path="device/qcom/krypton" revision="6629c06720a95608a9b95d0ba014e39b66739533" upstream="master"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="ec39b9c20a20fe285a6009c27ea826101b6532e1" upstream="master"/>
+</manifest>

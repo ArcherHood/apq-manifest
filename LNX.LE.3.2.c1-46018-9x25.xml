@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LE.3.2.c1"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="5fc12873c74b682f981de6195f31f39815d0a488" upstream="LNX.LE.3.2.c1"/>
+  <project name="kernel/msm" path="kernel" revision="12c02944455231780e91bb5e96443981dc8e19b3" upstream="LNX.LE.3.2.c1"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="LNX.LE.3.2.c1"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="LNX.LE.3.2.c1"/>
+  <project name="quic/le/mdm/wlan" path="wlan" revision="4d34992e95156f0d4bc7e7f38e91c2bb65541510" upstream="LNX.LE.3.2.c1"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="e6b504ae1e32e1efa8d92f30088f681a585d04a4" upstream="LNX.LE.3.2.c1"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="7d3c9450be21c8239d804aa2a5c27c89bf798b8c" upstream="LNX.LE.3.2.c1"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5" upstream="LNX.LE.3.2.c1"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="fb6bdd346028a4bbf0e2c9a90607b0ba3ea13823" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/build" path="bootable/scripts" revision="e4a28246f0cd2c5a75fbf6ccf8c5bc28208fd203" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="eb149b96257e024d49439910d4f46c92fc6b973f" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/external/hostap" path="external/hostap" revision="d2a2e12f56d281662bb52c65e1ee7166e556a116" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="87a13e739a811ce772fd05eb556f8dd9252af1cf" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/frameworks/base" path="base" revision="2dd0a804877a1ae9243d40142b5c8c0fcb2f5525" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="0151be9fd8a2937745e15231b925bf48f88d1adf" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/system/core" path="system/core" revision="2c0dd95762da4d7a43f137a3cc20ba42f5bf0529" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="03a99e0be2ae2fc4ed25bff688dfde24c3715ffa" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="bcb4bd04bb65c73e6896ecdee4e8c073ff6aa2b2" upstream="LNX.LE.3.2.c1"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="fadccc0637a75eac8fe44288c0f653ea3bde7a8f" upstream="LNX.LE.3.2.c1"/>
+</manifest>

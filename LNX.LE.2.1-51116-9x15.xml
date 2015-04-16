@@ -3,7 +3,7 @@
   <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="ics_strawberry"/>
-  <project name="quic/le/backports-drivers" revision="137dc5530ebd59d50ef0378b96d65a1daf6a2c56" upstream="refs/heads/master"/>
+  <project name="quic/le/backports-drivers" path="backports-drivers" revision="137dc5530ebd59d50ef0378b96d65a1daf6a2c56" upstream="refs/heads/master"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="0f3fc75d94fca9de3dce7e435d42ea070024cbd6" upstream="refs/heads/LNX.LE.2.1"/>
   <project name="kernel/msm" path="kernel" revision="42517ffa3326452d7a1cf8c0d1920d218729b66b" upstream="refs/heads/LNX.LE.2.1"/>
   <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="refs/heads/rhea"/>

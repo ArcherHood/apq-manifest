@@ -9,8 +9,8 @@
   <project name="quic/le/mdm/wlan" path="wlan" revision="refs/heads/penguin"/>
   <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="refs/heads/penguin"/>
   <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="refs/heads/rhea"/>
-  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
-  <project name="quic/le/openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/heads/penguin"/>
   <project name="platform/build" path="bootable/scripts" revision="refs/heads/penguin"/>
   <project name="platform/external/hostap" path="external/hostap" revision="refs/heads/kiwi"/>

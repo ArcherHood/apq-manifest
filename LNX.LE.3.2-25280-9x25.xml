@@ -9,8 +9,8 @@
   <project name="quic/le/mdm/wlan" path="wlan" revision="4d34992e95156f0d4bc7e7f38e91c2bb65541510" upstream="hummingbird"/>
   <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="e6b504ae1e32e1efa8d92f30088f681a585d04a4" upstream="hummingbird"/>
   <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="529adf93f0a9714c71ee34c295b1b040277d11bb" upstream="refs/heads/swift"/>
-  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5" upstream="hummingbird"/>
-  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535" upstream="hummingbird"/>
+  <project name="quic/le/openembedded/bitbake" path="oe-core/bitbake" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="quic/le/openembedded/openembedded-core" path="oe-core" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="fb6bdd346028a4bbf0e2c9a90607b0ba3ea13823" upstream="hummingbird"/>
   <project name="platform/build" path="bootable/scripts" revision="e4a28246f0cd2c5a75fbf6ccf8c5bc28208fd203" upstream="hummingbird"/>
   <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="4aacfb86b482664b125a7e06ef9b5ead2848671a" upstream="refs/heads/canary"/>

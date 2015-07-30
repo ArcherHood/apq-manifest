@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LE.4.0.1_rb1.18"/>
+  <project name="device/qcom/common" revision="4aaabcf40ecff001ba744459109d510a1b95f98c" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="6a2dd13a9166a0c15bbe36bc583adada329f5732" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="eb535817c8bb690c31515288b51afc416e56b4b2" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="d04220ee2b1b46e19369137117bf82cd92e5420a" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="quic/le/mdm/webserver" path="webserver" revision="3e7fa52cc6b4b28bce7e940fdea3acc66e5e6f37" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="d34bfad8c842c4238ceef2370fdda504d374f3c1" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="43071cdd534ba393bd87c20b195ac883eda0b5ea" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="adc041fd9e3def29cdf9c1ae4849c5383bac46e5"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="746e8ffa66850bf9050cd6baf94eb76c492eb535"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="625f550757173b78570d48598f76c8f714edb02d" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/build" path="bootable/scripts" revision="22f65d2980366e342037d216aca971f71ec997ff" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/external/qrngd" path="external/qrngd" revision="29b7068bf5fb64f09c1f83823ac1737a1f36b7f1" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="4464a6dc863d0dc63048144c292f7c1a194b25cd" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="1ac90c1449ec5ba35aab51203819cc003586990c" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="1a816748746591354dc43c33c929f81bf75c2d47" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="63b655f6c803a92fe48ca2a15ede6e094fe23f2c" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="quic/le/platform/init_mss" path="init_mss" revision="ff842729538b87e67cc7bf799bae39f65f62da7d" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/system/core" path="system/core" revision="a35d0c1dbd8405f22e1eadd640b3742e0bd814f6" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="9bea981edb114aa87719628431cadfd8822ad3e7" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="22b96bca69e1f4ed063ca41f7c3cb4e130e39aba" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="7de43537ebd47fc609a438935fb5fa15fa8617ae" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="qcom-opensource/kernel/kernel-tests" revision="8d1dbb8c5c54d255521f33f4fde8d73611c99422" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="c6ce351f6f71970c01c1cd4ee6cb9f8860095ab4" upstream="LNX.LE.4.0.1_rb1.18"/>
+  <project name="quic/le/platform/vendor/qcom/krypton" path="device/qcom/krypton" revision="0e9ecde05703cabd891c4e0937f5e8b05ba17846" upstream="LNX.LE.4.0.1_rb1.18"/>
+</manifest>

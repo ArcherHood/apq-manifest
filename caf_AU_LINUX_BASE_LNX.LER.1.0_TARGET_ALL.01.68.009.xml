@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="git://git.linaro.org/" name="linaro"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LNX.LER.1.0"/>
+  <project name="quic/le/kernel/lk" path="lk" revision="debbe7e330fe56da1c56b6aa92318bd100b5bf81" upstream="LNX.LER.1.0"/>
+  <project name="quic/le/kernel/msm" path="linux" revision="c6c2b7edab039f7c6bc9b3f21dfb1fd0be22bad6" upstream="LNX.LER.1.0"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="000fa81013205dd9bc907ff7a61f06f57637212d"/>
+  <project name="openembedded/meta-linaro" path="oe-core/meta-linaro" remote="linaro" revision="bc63e777ad2748b8bfa7fa70ffd74700fa21a567"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="d02cdf3ee88c7bbb93cecf094008858782deec3f"/>
+  <project name="quic/lx/qr-linux/build" path="oe-core/build" revision="933b67793a6ec57e7a1b2b240afb11a2589c89b1" upstream="LNX.LER.1.0"/>
+  <project name="quic/lx/qr-linux/meta-qr-linux" path="oe-core/meta-qr-linux" revision="9d19c0e3ac6f544448369e4d9f8c51199e940bff" upstream="LNX.LER.1.0"/>
+</manifest>

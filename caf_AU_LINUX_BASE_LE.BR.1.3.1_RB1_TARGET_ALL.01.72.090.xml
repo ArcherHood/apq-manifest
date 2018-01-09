@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/le" name="caf-le" review="null"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LE.BR.1.3.1_rb1.54"/>
+  <project name="device/qcom/common" revision="00e62a4b12d3483ecb8ea6846c2ffd04b2e6896d" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="736ed6e3830172cac8349a2a02a18ffee9c32799" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="1ad6ff2d3555a158c8614c86d1135e257aa0a236" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="kernel/msm-3.18" path="kernel" revision="52caae1d16d923b1a7cf1f4adec598bb18dacbf3" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/mdm/reboot-daemon" path="reboot-daemon" revision="ef84bd5b948563d06e9da2000155c505a70cf875" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/oe/conf" path="oe-core/build/conf" revision="39a950521a25e37939c9ed0a3af9fca2c0f31712" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/oe/recipes" path="oe-core/meta-msm" revision="57dbd1ef34aab7c6d7d6cc1e39d95ef11244e229" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="openembedded/bitbake" path="oe-core/bitbake" remote="caf-le" revision="baec2940c2b4ec792cacad5cc8d8056d9162919b"/>
+  <project name="openembedded/openembedded-core" path="oe-core" remote="caf-le" revision="3c78468f12296abd02abce6eeac0f69bc7509958"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="7975e4519272702ab4a06ca09c629f83c8058d8d" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/build" path="bootable/scripts" revision="46717c2f65fb20206a09bcb576885f19d2c6cfe7" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bf36c74d337a9d98b9d00a444596847b61a906a6" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="85f284f3207d26e747d0291564df37acde683c43" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="688d9a9af67df161b48ff92c63c06fdf91fb5976" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="c8013a95c3bb09cfb46430e8da648e2b9470a646" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="447d8b77dcf0186463d0f70677f98fbaae5482ea" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="d1a2edbb418ef30bc36f6ff48abc63712fafbbe2" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="3ed7ca5f85fc6d52e67bd35966739ee4797e7e86" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/platform/init_mss" path="init_mss" revision="5ac6b38ba0ca5e566ccc65f05403d34ed9cb0722" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/platform/qcom-opensource/bt" path="qcom-opensource/bt" revision="2835960c6ddcd5d0040d5c89cfd74cd6928d48e1" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/system/bt" path="system/bt" revision="99b2c000c11f5d0c8b4b0ee89f5ecb1c2b99e7b6" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/system/core" path="system/core" revision="65b770e89b1da5cbe87f7520efea5d702b0013c4" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/system/extras" path="system/extras" revision="8bb53f7d377b12b8e49313c01658382c1f7a1a11" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="de54ab62e0b3ef36d9c9c842a81e1e42176da020" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="data-ipa-cfg-mgr" revision="408a84f9f1b3ccd3f5241030cbfb0fcb90f0c7f2" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="data-oss" revision="0e5131ffe61c3d134b75993c2845d84a62d9e8c9" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="qcom-opensource/mm-audio" revision="c7ceae905b1b26e5df6b7eed28ece735f6bf3e28" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/vendor/qcom-opensource/location" path="qcom-opensource/location" revision="4f4afdca53b684c86ce829e30094bd97b1bed82e" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="3f7c292eb253b304bf97f6ffd1bf35e53e2532f3" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/platform/vendor/qcom-opensource/tcp-splice" path="tcp-splice" revision="b9090491600a59f01f30f80ce13af55d9c9acea7" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="wlan/qcacld-2.0" revision="c8e6ad58494ef3252275c4a2885d5f948e869ab7" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="wlan/utils/sigma-dut" revision="fd76cb850f5110c9d592276c4303630b5dba5759" upstream="LE.BR.1.3.1_rb1.54"/>
+  <project name="quic/le/qcom-opensource/mdm-init" path="mdm-init" revision="4580a121a7807a36917d878599a5d41fcadd1741" upstream="LE.BR.1.3.1_rb1.54"/>
+</manifest>
